@@ -11,8 +11,12 @@ const ListItem = () => {
         </a>
       </div>
       <div className="flex items-center my-4">
-        <input type="checkbox" className="nes-checkbox" checked={false} />
+        <input type="checkbox" className="nes-checkbox" checked />
         <span className=" mr-3 text-2xl">高空跳伞</span>
+        <a href="#" className="nes-badge is-splited">
+          <span className="is-dark">安吉</span>
+          <span className="is-primary">3000米</span>
+        </a>
       </div>
       <div className="flex items-center my-4">
         <input type="checkbox" className="nes-checkbox" checked={false} />
